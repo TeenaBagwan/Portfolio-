@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://image.freepik.com/free-photo/flat-lay-workstation-with-notebook-laptop_23-2148430872.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+ 
+nav{
+ 
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index: 9;
+    background: #1a1a1a;
+}
+
+.logo{
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    color: #f9004d;
+
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    transform: translate(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+.about{
+    width: 100%;
+    padding: 150px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 450px;
+    
+}
+ 
+.about-text{
+    width: 550px;
+
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin:0 auto ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h5{
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin-bottom: 25px;
+
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px ;
+    border-radius: 30px;
+    transition: 1s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+
+.service{
+    background-color: #101010;
+    width: 100%;
+     padding: 100px 0px;
+
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    text-align: center;
+    margin: 30px auto;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 30px;
+    background-color:#191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+h5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+.card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px ;
+    border-radius: 30px;
+    transition: 1s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+#contact {
+    width: 100%;
+    height: 400px;
+    background: #191919;
+    display: flex;
+}
+.contact{
+    background: var(--second-bg-color);
+    display: grid;
+    }
+
+.contact-left{
+    flex-basis: 35%;
+
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left h5{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+
+}
+.btn.btn2{
+    background-color: #f9004d;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 1s;
+}
+.contact-left form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 90%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.contact-icons{
+    margin-top: 30px;
+
+}
+.contact-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+color: #ababab;
+display: inline-block;
+
+}
+ 
